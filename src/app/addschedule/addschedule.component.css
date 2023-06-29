@@ -1,0 +1,203 @@
+
+
+.top-container {
+
+    margin-top: 0;
+
+    border: 1px solid #ccc;
+
+    padding: 10px;
+
+    background-color:#cce9ed;
+
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    height:140px;
+
+   
+
+   
+
+  }
+
+ 
+
+  .logo {
+
+    width: 150px;
+
+    height: 150px;
+
+    margin-right: 5px;
+
+  }
+
+
+
+
+  .search-bar {
+
+      display: flex;
+
+      align-items: center;
+
+      justify-content: center;
+
+      margin: 0 auto;
+
+     width:700px;
+
+      position: relative;
+
+  }
+
+
+
+
+  .search-icon {
+
+    position: absolute;
+
+    right: 110px;
+
+    color: #aaa;
+
+    cursor: pointer;
+
+  }
+
+
+
+
+  .search-button {
+
+    margin-left: 10px;
+
+  }
+
+
+
+
+  .form-container {
+
+
+      background-color:  rgba(103, 74, 52, 0.75);
+
+    margin-top: 20vh;
+
+    border-radius: 10px;
+
+    padding: 20px;
+
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+
+
+
+  }
+
+  .btn-primary {
+
+      background-color: #007bff;
+
+      border-color: #007bff;
+
+    }
+
+
+
+.btn-primary:hover {
+
+      background-color: #0069d9;
+
+      border-color: #0062cc;
+
+    }
+
+
+
+
+  .form-container label {
+
+    font-weight: bold;
+
+  }
+
+
+
+
+  .form-container button {
+
+    margin-top: 10px;
+
+  }
+
+  .user-image{
+
+    width: 80px;
+
+    height:75px;
+
+    margin-top: 10px;
+
+    margin-left: 200px;
+
+   
+
+  }
+
+  .user-profile{
+
+    margin-right: 10px;
+
+  }
+
+  .logout-button {
+
+    background-color: #dc3545;
+
+    color: rgb(255, 255, 255);
+
+    border: none;
+
+    padding: 10px 20px;
+
+    border-radius: 4px;
+
+    cursor: pointer;
+
+    transition: background-color 0.3s ease;
+
+    outline: none;
+
+   
+
+   
+
+  }
+
+  .logout-container {
+
+    position: absolute;
+
+    top: 20px;
+
+    right: 20px;
+
+  }
+
+  .form-row {
+
+    display: flex;
+
+    justify-content: space-between;
+
+  }
+
+ 
+
+  .form-row .form-group.col-md-6:nth-child(2) {
+
+    margin-left: auto;
+
+  }

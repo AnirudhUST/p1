@@ -16,7 +16,7 @@
 
   <app-adminnav></app-adminnav>
 
-  <div class="row"style="margin-top:200px;">
+  <!-- <div class="row"style="margin-top:200px;">
 
     <div class="col-md-6 offset-md-3">
 
@@ -105,7 +105,133 @@
 
     </div>
 
+  </div> -->
+
+
+
+
+  <div class="row">
+
+    <div class="col-md-6 offset-md-3">
+
+      <div class="container">
+
+        <div class="form-container">
+
+          
+
+            <div class="form-row">
+
+              <div class="form-group col-md-6">
+
+                <label for="bus-id">ScheduleId</label>
+
+                <input type="text" [(ngModel)]="scheduleId" class="form-control" id="bus-id">
+
+              </div>
+
+              <div class="form-group col-md-6">
+
+                <label for="bus-name">Date</label>
+
+                <input type="text"  [(ngModel)]="date"  placeholder="yyyy-mm-dd"class="form-control" id="bus-name">
+              </div>
+
+            </div>
+
+            <div class="form-row">
+
+              <div class="form-group col-md-6">
+
+                <label for="bus-seats">DepartureTime</label>
+
+                <input type="text" [(ngModel)]="departureTime" placeholder="hh:mm:ss" class="form-control" id="bus-seats">
+
+              </div>
+
+              <div class="form-group col-md-6">
+
+                <label for="bus-type">ArrivalTime</label>
+
+                <input type="text" [(ngModel)]="arrivalTime" placeholder="hh:mm:ss" class="form-control" id="bus-type"> 
+
+              </div>
+
+            </div>
+
+            <div class="form-row">
+
+              <!-- <div class="form-group col-md-6">
+
+                <label for="bus-number">Bus No</label>
+
+                <input type="text" [(ngModel)]="busNo" class="form-control" id="bus-number">
+
+              </div> -->
+
+              <div class="form-group col-md-6">
+
+                <label for="bus-number">RouteId</label>
+
+                <input type="text" [(ngModel)]="routeId" class="form-control" id="bus-number">
+
+              </div>
+
+            <!-- </div> -->
+
+            <!-- <div class="form-row"> -->
+
+              <div class="form-group col-md-6">
+
+                
+                <label for="reg-number">BusId</label>
+
+                <input type="text" [(ngModel)]="busId" class="form-control" id="reg-number">
+
+
+              </div>
+
+            </div>
+
+            <!-- <div style="font-weight: bold; color: rgb(151, 20, 20); margin-left: 140px;" class="error-message">
+              {{ errorMessage }}
+            </div> -->
+
+
+            <div class="text-center">
+
+              <button type="submit" class="btn btn-primary" (click)="addschedule()">ADD</button>
+
+            </div>
+
+          
+
+        </div>
+
+      </div>
+
+    </div>
+
   </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
   <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>

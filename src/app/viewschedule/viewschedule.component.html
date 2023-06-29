@@ -1,5 +1,5 @@
-<app-adminnav></app-adminnav>
-<div class="body">
+
+<!-- <div class="body">
 
 
 
@@ -20,7 +20,7 @@
 
  
 
-            <div class="card d-flex flex-column my-3"> <!-- Added 'y-3' class for margin -->
+            <div class="card d-flex flex-column my-3"> 
 
  
 
@@ -56,4 +56,62 @@
 
  
 
-  </div>
+  </div> -->
+
+
+
+
+
+  <app-adminnav></app-adminnav>
+
+<div class="container">
+
+    <table class="table table-striped">
+
+        <thead>
+
+            <tr>
+
+                <th>Schedule Id</th>
+
+                <th>Date</th>
+
+                <th>Departure Time</th>
+
+                <th>Arrival Time</th>
+
+                <th>Route Id</th>
+
+                <th>Bus Id</th>
+
+            </tr>
+
+        </thead>
+
+        <tbody *ngFor="let b of schedule; let i = index;">
+
+            
+
+            <tr>
+
+                <td>{{schedule[i].scheduleId}}</td>
+
+                <td>{{schedule[i].date}}</td>
+
+                <td>{{schedule[i].departureTime}}</td>
+
+                <td>{{schedule[i].arrivalTime }}</td>
+
+                <td>{{ schedule[i].routeId }}</td>
+
+                <td>{{ schedule[i].busId }}</td>
+
+            </tr>
+
+            
+
+        </tbody>
+
+    </table>
+
+</div>

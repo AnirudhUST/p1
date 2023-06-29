@@ -29,7 +29,7 @@
               
             ],
             "scripts": [
-              "C:/Users/235814/demo/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
             ]
           },
           "configurations": {
